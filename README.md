@@ -1,7 +1,7 @@
 Gridpacks production: UL WW aTGC
 ======================
 
-# 0 - SET UP
+### 0 - SET UP
 
 Use slc6 architecture
 
@@ -17,7 +17,7 @@ Use slc6 architecture
     
     git clone https://github.com/fmanteca/aTGC_UL_samples.git
 
-# 1 - CREATE THE GRIDPACKS
+### 1 - CREATE THE GRIDPACKS
 
     ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX
     ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX
