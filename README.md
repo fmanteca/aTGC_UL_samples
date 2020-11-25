@@ -38,7 +38,7 @@ In this particular case (aTGC):
    ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX 10> gridpack3.log
    ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX 10> gridpack4.log
 
-   One line has been added to gridpack_generation.sh in order to access to the restrict*dat files in models/
+   One line has been added to gridpack_generation.sh (L226) in order to access to the restrict*dat files in models/
 
 ### 3 - Monitoring 
 
