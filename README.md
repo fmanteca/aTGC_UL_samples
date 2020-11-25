@@ -17,7 +17,7 @@ Get a CMS connect account: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBo
     
     git clone https://github.com/fmanteca/aTGC_UL_samples.git
 
-### 1 - Get the singularity container for generating gridpacks in slc6
+### 1 - Set the singularity container for generating gridpacks on slc6
 
 (on /local-scratch/<username>/genproductions)
     
@@ -42,7 +42,7 @@ In this particular case (aTGC):
 
 ### 3 - Monitoring 
 
-Get the <screen_id>:
+Get the <screen_id>
 
     screen -ls
 
