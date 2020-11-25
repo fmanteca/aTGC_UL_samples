@@ -20,8 +20,6 @@ Get a CMS connect account: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBo
 
 ### 1 - Set the singularity for generating gridpacks on slc6
 
-(on /local-scratch/<username>/genproductions)
-    
     screen 
 
     cmssw-slc6-condor 
