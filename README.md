@@ -54,13 +54,10 @@ Nov. the 25th, 2020: It crashes due to "git not found" issue. Need to somehow se
 
 #### In this particular case (aTGC): 
 
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX > gridpack1.log
-
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX > gridpack2.log
-
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX > gridpack3.log
-
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX > gridpack4.log
+    ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX > gridpack1.log
+    ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX > gridpack2.log
+    ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX > gridpack3.log
+    ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX > gridpack4.log
 
 One line has been added to gridpack_generation.sh (L226) in order to access to the restrict*dat files in models/
    
