@@ -31,15 +31,6 @@ Get a CMS connect account: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBo
 
 Close the tab
 
-In this particular case (aTGC): 
-
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX 10> gridpack1.log
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX 10> gridpack2.log
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX 10> gridpack3.log
-   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX 10> gridpack4.log
-
-   One line has been added to gridpack_generation.sh (L226) in order to access to the restrict*dat files in models/
-
 ### 3 - Monitoring 
 
 Get the <screen_id>
@@ -55,3 +46,13 @@ For recovering the tab:
     ./submit_cmsconnect_gridpack_generation.sh <card_name> <card_dir>
 
 Nov. the 25th, 2020: It crashes due to "git not found" issue. Need to somehow set properly the environment on the condor destination machine for larger productions...
+
+#### In this particular case (aTGC): 
+
+   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-0to400_4f_NLO_FXFX > gridpack1.log
+   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-400to600_4f_NLO_FXFX > gridpack2.log
+   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-600to800_4f_NLO_FXFX > gridpack3.log
+   ./gridpack_generation.sh WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX WWTolnulnu_01j_aTGC_lep_WWmass-800toInf_4f_NLO_FXFX > gridpack4.log
+
+One line has been added to gridpack_generation.sh (L226) in order to access to the restrict*dat files in models/
+   
