@@ -59,3 +59,7 @@ Nov. the 25th, 2020: It crashes due to "git not found" issue. Need to somehow se
 
 One line has been added to gridpack_generation.sh (L226) in order to access to the restrict*dat files in models/
    
+
+#### Important: avoid the reweighting error:
+
+Note that the W boson decay is defined in the madspin file while the NLO reweighting is applied over the proc_card processes, so it is needed to change the order of the reweighting and the decay steps through a patch file (see https://answers.launchpad.net/mg5amcnlo/+question/482763). The one used is 0034-fix-madgraph-interface-for-aTGCs.patch
